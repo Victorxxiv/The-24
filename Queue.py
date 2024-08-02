@@ -18,7 +18,7 @@ class Queue:
 
 # Example
 q = Queue()
-q.enqueue = (20)
-q.enqueue = (30)
+q.enqueue(20)
+q.enqueue(30)
 print(q.dequeue())  # 20
 print(q.is_empty())  # False
