@@ -32,6 +32,6 @@ class HashTable:
 # Example
 ht = HashTable()
 ht.insert("name", "Ragnar")
-print(ht.get("name"))
+print(ht.get("name"))  # Ragnar
 ht.delete("name")
-print(ht.get("name"))
+print(ht.get("name"))  # None
